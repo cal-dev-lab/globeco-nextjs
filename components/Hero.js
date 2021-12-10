@@ -27,7 +27,7 @@ const Hero = () => {
         autoPlay
         muted
         loop
-        className="object-cover w-100 w-screen h-screen cover z-0"
+        className="object-cover w-100 w-screen h-screen cover"
       >
         <source
           src="./media/pexels-mikhail-nilov-6942626.mp4"

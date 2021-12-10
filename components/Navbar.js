@@ -27,36 +27,37 @@ const Navbar = () => {
                   </a>
                 </Link>
               </div>
+
               {/* Main nav */}
-              <div className="hidden md:flex items-center space-x-1 pl-10">
-                <a
-                  href="/#"
-                  className="tracking-wide text-xs tracking-widest py-5 px-3 text-gray-700 transition duration-500 hover:underline hover:text-green-500"
-                >
-                  Why We Exist
-                </a>
-                <a
-                  href="/#"
-                  className="tracking-wide text-xs tracking-widest py-5 px-3 text-gray-700 transition duration-500 hover:underline hover:text-green-500"
-                >
-                  Radical Solutions
-                </a>
-                <a
-                  href="/#"
-                  className="tracking-wide text-xs tracking-widest py-5 px-3 text-gray-700 transition duration-500 hover:underline hover:text-green-500"
-                >
-                  Act Now
-                </a>
-              </div>
+              <div className="hidden md:flex items-center space-x-1 pl-10"></div>
             </div>
+
             {/* Secondary nav */}
             <div className="hidden md:flex items-center space-x-1">
-              <button className="text-xs hover:bg-green-500 hover:text-white py-2 px-4 border-2 border-green-500 text-gray-700 rounded transition duration-300 pxgrotesk">
-                Sign up
-              </button>
-              <button className="text-xs bg-green-500 hover:text-white hover:bg-green-600 py-2 px-4 text-white rounded border-2 border-green-500 transition duration-300 pxgrotesk">
-                Log in
-              </button>
+              <a
+                href="/#"
+                className="tracking-wide text-xs tracking-widest py-5 px-3 text-gray-700 transition duration-500 hover:underline hover:text-green-500"
+              >
+                Why We Exist
+              </a>
+              <a
+                href="/#"
+                className="tracking-wide text-xs tracking-widest py-5 px-3 text-gray-700 transition duration-500 hover:underline hover:text-green-500"
+              >
+                Radical Solutions
+              </a>
+              <a
+                href="/#"
+                className="tracking-wide text-xs tracking-widest py-5 px-3 text-gray-700 transition duration-500 hover:underline hover:text-green-500"
+              >
+                Impact
+              </a>
+              <a
+                href="/#"
+                className="tracking-wide text-xs tracking-widest py-5 px-3 text-gray-700 transition duration-500 hover:underline hover:text-green-500"
+              >
+                Act Now
+              </a>
             </div>
             {/* Mobile button */}
             <div className="md:hidden flex items-center">
@@ -92,6 +93,12 @@ const Navbar = () => {
             className="block tracking-wide py-6 px-24 text-sm tracking-widest bg-green-500 text-white hover:bg-white hover:text-black transition duration-500"
           >
             Radical Solutions
+          </a>
+          <a
+            href="/#"
+            className="block tracking-wide py-6 px-24 text-sm tracking-widest bg-green-500 text-white hover:bg-white hover:text-black transition duration-500"
+          >
+            Impact
           </a>
           <a
             href="/#"

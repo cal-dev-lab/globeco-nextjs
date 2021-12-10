@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "eslint": "8.4.1",
     "start": "next start",
     "lint": "next lint"
   },

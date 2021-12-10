@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "px-grotesk";
+  src: url("../public/fonts/px-grotesk/px-grotesk-regular.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+* {
+  font-family: "px-grotesk";
+}

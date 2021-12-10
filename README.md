@@ -21,3 +21,7 @@ https://unsplash.com/s/photos/rainforest
 ## Font sources
 https://www.nikolastype.com/typefaces/cosi-azure
 https://optimo.ch/typefaces/px_grotesk
+
+## Content
+Content taken from:
+https://www.coolearth.org/time-for-action/?gclid=CjwKCAiA78aNBhAlEiwA7B76p7XG9JZAVdm0oA1NpjUvWtedcJYCsU4G_CxMdaTy26mN19d9hWsEoRoC_T8QAvD_BwE

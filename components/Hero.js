@@ -21,8 +21,6 @@ const Hero = () => {
           height="250"
           alt="Logo"
         />
-
-        {/* <div className="text-xs md:text-md text-white">2021</div> */}
       </div>
       <video
         autoPlay

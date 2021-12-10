@@ -22,6 +22,7 @@ const Hero = () => {
           alt="Logo"
         />
       </div>
+
       <video
         autoPlay
         muted

@@ -36,25 +36,25 @@ const Navbar = () => {
             <div className="hidden md:flex items-center space-x-1">
               <a
                 href="/#"
-                className="tracking-wide text-xs tracking-widest py-5 px-3 text-gray-700 transition duration-500 hover:underline hover:text-green-500"
+                className="tracking-wide text-xs tracking-widest py-2 px-3 text-gray-700 transition duration-500 hover:underline hover:text-green-500"
               >
                 Why We Exist
               </a>
               <a
                 href="/#"
-                className="tracking-wide text-xs tracking-widest py-5 px-3 text-gray-700 transition duration-500 hover:underline hover:text-green-500"
+                className="tracking-wide text-xs tracking-widest py-2 px-3 text-gray-700 transition duration-500 hover:underline hover:text-green-500"
               >
                 Radical Solutions
               </a>
               <a
                 href="/#"
-                className="tracking-wide text-xs tracking-widest py-5 px-3 text-gray-700 transition duration-500 hover:underline hover:text-green-500"
+                className="tracking-wide text-xs tracking-widest py-2 px-3 text-gray-700 transition duration-500 hover:underline hover:text-green-500"
               >
                 Impact
               </a>
               <a
                 href="/#"
-                className="tracking-wide text-xs tracking-widest py-5 px-3 text-gray-700 transition duration-500 hover:underline hover:text-green-500"
+                className="tracking-wide text-xs tracking-widest py-2 px-3 text-gray-700 transition duration-500 hover:underline hover:text-green-500"
               >
                 Act Now
               </a>

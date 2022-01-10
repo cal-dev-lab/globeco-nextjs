@@ -14,7 +14,7 @@ const WelcomeHeader = () => {
           data-aos-easing="linear"
           data-aos-duration="1000"
         />
-      <div className="w-full h-full flex flex-col-reverse absolute top-0 justify-center mx-auto md:pl-28 items-center md:items-start">
+      <div className="w-full h-full flex flex-col-reverse absolute top-0 justify-center mx-auto items-center">
       <div className="flex">
         <div className="space-x-4">
           <a href="/#">

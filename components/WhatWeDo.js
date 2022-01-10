@@ -6,15 +6,21 @@ import CardThree from './CardGallery/CardThree'
 function WhatWeDo() {
     return (
         <>
-        <div className='p-20'>
-            <div className="text-left md:text-center mx-auto">
-                <h1
-                    className="text-4xl md:text-6xl uppercase tracking-snug font-bold mb-2 text-black"
+        <div className='bg-black'>
+            <div>
+                <video
+                    autoPlay
+                    muted
+                    loop
+                    className="object-cover h-48 w-screen"
                 >
-                    Globeco in Numbers
-                </h1>
+                    <source
+                        src="./media/Pexels Videos 2063228.mp4"
+                        type="video/mp4"
+                    />
+                </video>
             </div>
-            <div className="flex items-left mx-auto mt-20">
+            <div className="flex items-center mx-auto justify-center p-20">
                 <div className="flex-1 max-w-6xl mx-auto items-left">
                     <ul className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
                         <CardOne />

@@ -1,9 +1,7 @@
 import Head from "next/head";
-import Navbar from "../components/Navbar";
-import Hero from "../components/Hero";
-import WelcomeHeader from "../components/WelcomeHeader";
+import Home from "../components/Home";
 
-export default function Home() {
+export default function Index() {
   return (
     <div>
       <Head>
@@ -21,9 +19,7 @@ export default function Home() {
           display="swap"
         />
       </Head>
-      <Hero />
-      <Navbar />
-      <WelcomeHeader />
+      <Home />
     </div>
   );
 }

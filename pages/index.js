@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
-import AboutUs from "../components/AboutUs";
 import WelcomeHeader from "../components/WelcomeHeader";
 
 export default function Home() {
@@ -25,7 +24,6 @@ export default function Home() {
       <Hero />
       <Navbar />
       <WelcomeHeader />
-      <AboutUs />
     </div>
   );
 }

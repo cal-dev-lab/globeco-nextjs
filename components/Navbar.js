@@ -17,12 +17,12 @@ const Navbar = () => {
                 <Link href="/">
                   <a
                     href="/#"
-                    className="flex items-center py-5 px-2 text-gray-700"
+                    className="flex items-center py-2 px-2 text-gray-700"
                   >
                     <Image
                       src="/media/globeco-logos_black.png"
-                      width="200"
-                      height="50"
+                      width="125"
+                      height="30"
                     />
                   </a>
                 </Link>
@@ -33,7 +33,7 @@ const Navbar = () => {
             </div>
 
             {/* Secondary nav */}
-            <div className="hidden md:flex items-center space-x-1">
+            <div className="hidden md:flex items-center space-x-12">
               <a
                 href="/#"
                 className="tracking-wide text-xs tracking-widest py-2 px-3 text-gray-700 transition duration-500 hover:underline hover:text-green-500"
@@ -84,25 +84,25 @@ const Navbar = () => {
         <div className="mobile-menu hidden md:hidden">
           <a
             href="/#"
-            className="block tracking-wide py-6 px-24 text-sm tracking-widest bg-green-500 text-white hover:bg-white hover:text-black transition duration-500"
+            className="block tracking-wide py-6 px-24 text-sm tracking-widest bg-black text-white hover:bg-white hover:text-black transition duration-500"
           >
             Why We Exist
           </a>
           <a
             href="/#"
-            className="block tracking-wide py-6 px-24 text-sm tracking-widest bg-green-500 text-white hover:bg-white hover:text-black transition duration-500"
+            className="block tracking-wide py-6 px-24 text-sm tracking-widest bg-black text-white hover:bg-white hover:text-black transition duration-500"
           >
             Radical Solutions
           </a>
           <a
             href="/#"
-            className="block tracking-wide py-6 px-24 text-sm tracking-widest bg-green-500 text-white hover:bg-white hover:text-black transition duration-500"
+            className="block tracking-wide py-6 px-24 text-sm tracking-widest bg-black text-white hover:bg-white hover:text-black transition duration-500"
           >
             Impact
           </a>
           <a
             href="/#"
-            className="block tracking-wide py-6 px-24 text-sm tracking-widest bg-green-500 text-white hover:bg-white hover:text-black transition duration-500"
+            className="block tracking-wide py-6 px-24 text-sm tracking-widest bg-black text-white hover:bg-white hover:text-black transition duration-500"
           >
             Act Now
           </a>

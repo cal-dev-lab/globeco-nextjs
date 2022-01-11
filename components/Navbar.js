@@ -14,17 +14,19 @@ const Navbar = () => {
             <div className="flex space-x-4">
               {/* Logo */}
               <div className="">
-                <Link href="/">
-                  <a
+                <Link href="/" passHref>
+                  <Link
                     href="/#"
+                    passHref
                     className="flex items-center py-2 px-2 text-gray-700"
                   >
                     <Image
                       src="/media/globeco-logos_black.png"
                       width="125"
                       height="30"
+                      alt="Globeco logo"
                     />
-                  </a>
+                  </Link>
                 </Link>
               </div>
 
@@ -34,30 +36,34 @@ const Navbar = () => {
 
             {/* Secondary nav */}
             <div className="hidden md:flex items-center space-x-12">
-              <a
+              <Link
                 href="/#"
+                passHref
                 className="tracking-wide text-xs tracking-widest py-2 px-3 text-gray-700 transition duration-500 hover:underline hover:text-green-500"
               >
                 Why We Exist
-              </a>
-              <a
+              </Link>
+              <Link
+                passHref
                 href="/#"
                 className="tracking-wide text-xs tracking-widest py-2 px-3 text-gray-700 transition duration-500 hover:underline hover:text-green-500"
               >
                 Radical Solutions
-              </a>
-              <a
+              </Link>
+              <Link
+                passHref
                 href="/#"
                 className="tracking-wide text-xs tracking-widest py-2 px-3 text-gray-700 transition duration-500 hover:underline hover:text-green-500"
               >
                 Impact
-              </a>
-              <a
+              </Link>
+              <Link
+                passHref
                 href="/#"
                 className="tracking-wide text-xs tracking-widest py-2 px-3 text-gray-700 transition duration-500 hover:underline hover:text-green-500"
               >
                 Act Now
-              </a>
+              </Link>
             </div>
             {/* Mobile button */}
             <div className="md:hidden flex items-center">
@@ -70,9 +76,9 @@ const Navbar = () => {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLineJoin="round"
+                    strokeWidth="2"
                     d="M4 6h16M4 12h16m-7 6h7"
                   ></path>
                 </svg>
@@ -82,30 +88,34 @@ const Navbar = () => {
         </div>
         {/* Mobile menu */}
         <div className="mobile-menu hidden md:hidden">
-          <a
+          <Link
+            passHref
             href="/#"
             className="block tracking-wide py-6 px-24 text-sm tracking-widest bg-black text-white hover:bg-white hover:text-black transition duration-500"
           >
             Why We Exist
-          </a>
-          <a
+          </Link>
+          <Link
+            passHref
             href="/#"
             className="block tracking-wide py-6 px-24 text-sm tracking-widest bg-black text-white hover:bg-white hover:text-black transition duration-500"
           >
             Radical Solutions
-          </a>
-          <a
+          </Link>
+          <Link
+            passHref
             href="/#"
             className="block tracking-wide py-6 px-24 text-sm tracking-widest bg-black text-white hover:bg-white hover:text-black transition duration-500"
           >
             Impact
-          </a>
-          <a
+          </Link>
+          <Link
+            passHref
             href="/#"
             className="block tracking-wide py-6 px-24 text-sm tracking-widest bg-black text-white hover:bg-white hover:text-black transition duration-500"
           >
             Act Now
-          </a>
+          </Link>
         </div>
       </nav>
     </>

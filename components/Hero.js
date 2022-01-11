@@ -6,19 +6,20 @@ const Hero = () => {
     <div className="w-full relative">
       <div className="w-full h-full top-0 left-0 absolute"></div>
       <div className="w-full h-full flex flex-col-reverse absolute top-0 left-0 justify-center mx-auto items-center">
-        <Link href="/">
-          <a
+        <Link href="/" passHref>
+          <Link
             href="/"
             className="grid grid-cols-1 text-center"
             data-aos="fade-up"
             data-aos-easing="linear"
             data-aos-duration="2000"
+            passHref
           >
             <p className="text-xs md:text-md text-white mb-2 underline">
               See what we do
             </p>
             <div className="text-xl text-white animate-bounce">&darr;</div>
-          </a>
+          </Link>
         </Link>
 
         <Image

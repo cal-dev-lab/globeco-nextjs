@@ -14,7 +14,6 @@ const Navbar = () => {
             <div className="flex space-x-4">
               {/* Logo */}
               <div className="">
-                <Link href="/" passHref>
                   <Link
                     href="/#"
                     passHref
@@ -27,7 +26,6 @@ const Navbar = () => {
                       alt="Globeco logo"
                     />
                   </Link>
-                </Link>
               </div>
 
               {/* Main nav */}
@@ -77,7 +75,7 @@ const Navbar = () => {
                 >
                   <path
                     strokeLinecap="round"
-                    strokeLineJoin="round"
+                    strokeLinejoin="round"
                     strokeWidth="2"
                     d="M4 6h16M4 12h16m-7 6h7"
                   ></path>
